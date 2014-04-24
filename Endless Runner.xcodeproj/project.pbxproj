@@ -24,6 +24,7 @@
 		58C163431909507800F94025 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 58C1631E1909507800F94025 /* UIKit.framework */; };
 		58C1634B1909507800F94025 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 58C163491909507800F94025 /* InfoPlist.strings */; };
 		58C1634D1909507800F94025 /* Endless_RunnerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 58C1634C1909507800F94025 /* Endless_RunnerTests.m */; };
+		58EEF13919098572004E01A0 /* ERGBackground.m in Sources */ = {isa = PBXBuildFile; fileRef = 58EEF13819098572004E01A0 /* ERGBackground.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -60,6 +61,9 @@
 		58C163481909507800F94025 /* Endless RunnerTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Endless RunnerTests-Info.plist"; sourceTree = "<group>"; };
 		58C1634A1909507800F94025 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		58C1634C1909507800F94025 /* Endless_RunnerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Endless_RunnerTests.m; sourceTree = "<group>"; };
+		58EEF136190984CF004E01A0 /* Common.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Common.h; sourceTree = "<group>"; };
+		58EEF13719098572004E01A0 /* ERGBackground.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ERGBackground.h; sourceTree = "<group>"; };
+		58EEF13819098572004E01A0 /* ERGBackground.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ERGBackground.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -128,6 +132,9 @@
 				58C163321909507800F94025 /* ERGViewController.m */,
 				58C163341909507800F94025 /* ERGMyScene.h */,
 				58C163351909507800F94025 /* ERGMyScene.m */,
+				58EEF13719098572004E01A0 /* ERGBackground.h */,
+				58EEF13819098572004E01A0 /* ERGBackground.m */,
+				58EEF136190984CF004E01A0 /* Common.h */,
 				58C163371909507800F94025 /* Spaceship.png */,
 				58C163391909507800F94025 /* Images.xcassets */,
 				58C163231909507800F94025 /* Supporting Files */,
@@ -266,6 +273,7 @@
 				58C163291909507800F94025 /* main.m in Sources */,
 				58C163361909507800F94025 /* ERGMyScene.m in Sources */,
 				58C1632D1909507800F94025 /* ERGAppDelegate.m in Sources */,
+				58EEF13919098572004E01A0 /* ERGBackground.m in Sources */,
 				58C163331909507800F94025 /* ERGViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -473,6 +481,7 @@
 				58C163521909507800F94025 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		58C163531909507800F94025 /* Build configuration list for PBXNativeTarget "Endless RunnerTests" */ = {
 			isa = XCConfigurationList;
@@ -481,6 +490,7 @@
 				58C163551909507800F94025 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
